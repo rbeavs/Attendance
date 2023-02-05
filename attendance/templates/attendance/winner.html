@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html lang="en" data-bs-theme="dark">>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Overall Winner</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+<header>
+    {% include 'attendance/navbar.html' %}
+</header>
+<h4>Freshman Winner: {{ fr_recipient.name }}</h4>
+<h4>Sophomore Winner: {{ so_recipient.name }}</h4>
+<h4>Junior Winner: {{ jr_recipient.name }}</h4>
+<h4>Senior Winner: {{ sr_recipient.name }}</h4>
+</body>
+</html>
