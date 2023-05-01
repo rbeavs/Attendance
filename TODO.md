@@ -1,0 +1,4 @@
+- [] Add a 404 page
+- [] Make the Django Admin page look better
+- [] Add HTML and CSS to the form
+- [] Look into only allow users to fill out the form once a day
