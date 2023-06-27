@@ -5,7 +5,8 @@ from .views import archive
 
 
 class ArchiveAdmin(admin.ModelAdmin):
-    list_display = ('name', 'email', 'FR', 'SO', 'JR', 'SR', 'points', 'event', 'created_at')
+    list_display = ('name', 'email', 'FR', 'SO', 'JR', 'SR', 'points', 'event', )
+    list_filter = ('created_at', )
     date_hierarchy = 'created_at'
     ordering = ('-created_at',)
 
